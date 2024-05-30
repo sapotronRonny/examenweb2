@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.createtest = exports.getAlltest = exports.createResultado = exports.getALLRESULTADO = exports.createpaciente = exports.getAllPACIENTES = void 0;
+var controladorpaciente_1 = require("./controladorpaciente");
+Object.defineProperty(exports, "getAllPACIENTES", { enumerable: true, get: function () { return controladorpaciente_1.getAllPACIENTES; } });
+Object.defineProperty(exports, "createpaciente", { enumerable: true, get: function () { return controladorpaciente_1.createpaciente; } });
+var controladorresultado_1 = require("./controladorresultado");
+Object.defineProperty(exports, "getALLRESULTADO", { enumerable: true, get: function () { return controladorresultado_1.getALLRESULTADO; } });
+Object.defineProperty(exports, "createResultado", { enumerable: true, get: function () { return controladorresultado_1.createResultado; } });
+var controladortest_1 = require("./controladortest");
+Object.defineProperty(exports, "getAlltest", { enumerable: true, get: function () { return controladortest_1.getAlltest; } });
+Object.defineProperty(exports, "createtest", { enumerable: true, get: function () { return controladortest_1.createtest; } });
